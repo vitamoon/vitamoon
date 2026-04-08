@@ -5,7 +5,7 @@ prev:
   - [RL @ Sandia Labs : reinforcement learning for coordinating hypersonic missile guidance systems]
   - [ML @ CAISH : benchmarking capabilities of frontier models on conducting research independently]
   - [ML @ Accenture : probabilistic/statistical inference on LLMs for generating synthetic datasets]
-  - [dev @ Sandlines : tracking national policy changes to ensure compliance in municipal paperwork]
+  - [dev @ CityStream : tracking national policy plus RAG for legal compliance in municipal systems]
   - [dev @ Silicon Valley Clean Water : built safety & equipment monitoring database in power plant]
   - [team lead @ IEEE : designed architecture of an open source alternative to Whisper from scratch]
   - [PCBs @ Mission Cube : solar power & battery array on a world record atmospheric sampling probe]
