@@ -2,21 +2,22 @@
 loc: SF Bay Area local 🌉
 edu: EECS + GWS @ UC Berkeley
 prev:
-  - [ML @ Salesforce : simulating human behavior to guide proactive decision-making in agent swarms]
-  - [ML @ Sandia Labs : reinforcement learning for coordinating hypersonic missile guidance systems]
-  - [ML @ CAISH : benchmarking capabilities of frontier models on conducting research independently]
-  - [ML @ Accenture : probabilistic & statistical inference + GAN for generating synthetic datasets]
-  - [SWE @ CityStream : RAG for government for doc drafts and legal compliance in municipal systems]
-  - [SWE @ Silicon Valley Clean Water : built safety & equipment observablity tools for power plant]
-  - [team lead @ IEEE : designed architecture of an open-source alternative to Whisper from scratch]
-  - [EE @ Mission Cube : solar power & battery array on the world record atmospheric sampling probe]
+  - [ML @ Salesforce : simulating human behavior for proactive decision-making in agents            ]
+  - [ML @ MARS 4.0 : benchmarking capabilities of frontier models on conducting independent research]
+  - [ML @ Sandia : reinforcement learning & diffusion models for hypersonic rocketry guidance system]
+  - [ML @ Accenture : probabilistic & statistical inference + GANs for generating synthetic datasets]
+  - [dev @ CityStream : RAG for government                                                          ]
+  - [dev @ Oracle : built equipment tagging and observability platform for managing hardware devices]
+  - [ops @ Silicon Valley Clean Water : approved a cost-benefit analysis on new power infrastructure]
+  - [team lead @ IEEE : designed architecture of the open-source alternative to Whisper from scratch]
+  - [eng @ Mission Cube : solar power & battery array on the world record atmospheric sampling probe]
 hobbies:
     [spelunking, crochet, birdwatching, 🏎️, cinema, poker, 📸, TVRUHH, Katana Zero, SANABI, PvZGW2]
 interests:
     [lithography, entomology, architecture, immunology, linguistics, culinary arts, compressed foam]
 ```
 
-My first project ever was an interactive, animated visual novel with over 200 scenes!
+My first project ever was an interactive, animated visual novel with over 200 scenes.
 [Try it out!](https://github.com/Vitamoon/mojan)
 
 I love hackathons! Check out my most recent wins:
