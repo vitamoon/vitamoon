@@ -2,12 +2,13 @@
 loc: SF Bay Area local 🌉
 edu: EECS + GWS @ UC Berkeley
 prev:
-  - [ML @ Salesforce : simulating human behavior for proactive decision-making in agents            ]
+  - [ML @ Salesforce : simulating human behavior in agents for proactive decision-making & bugfixing]
   - [ML @ MARS 4.0 : benchmarking capabilities of frontier models on conducting independent research]
   - [ML @ Sandia : reinforcement learning & diffusion models for hypersonic rocketry guidance system]
   - [ML @ Accenture : probabilistic & statistical inference + GANs for generating synthetic datasets]
-  - [dev @ CityStream : RAG for government                                                          ]
-  - [dev @ Oracle : built equipment tagging and observability platform for managing hardware devices]
+  - [dev @ SPAR F25 : mapped an ontology & knowledge graph to find major gaps in technical alignment]
+  - [dev @ CityStream : RAG & legislative record management & data analytics at scale for government]
+  - [dev @ Oracle : piloted equipment tagging & observability platform for managing hardware devices]
   - [ops @ Silicon Valley Clean Water : approved a cost-benefit analysis on new power infrastructure]
   - [team lead @ IEEE : designed architecture of the open-source alternative to Whisper from scratch]
   - [eng @ Mission Cube : solar power & battery array on the world record atmospheric sampling probe]
