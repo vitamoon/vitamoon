@@ -2,7 +2,7 @@
 loc: SF Bay Area local 🌉
 edu: EECS + GWS @ UC Berkeley
 prev:
-  - [get things done guy @ Atoms : got (many) things done]
+  - [get things done guy @ Atoms : teaching cars to drive themselves]
   - [non-sales force @ Salesforce : simulating human behavior in agents]
   - [martian @ MARS 4 : benchmarking frontier models on conducting independent research]
   - [coder @ Sandia : reinforcement learning & diffusion for missile guidance system]
