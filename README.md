@@ -2,16 +2,16 @@
 loc: SF Bay Area local 🌉
 edu: EECS + GWS @ UC Berkeley
 prev:
-  - [get things done guy @ Atoms : teaching cars to drive themselves]
-  - [non-sales force @ Salesforce : simulating human behavior in agents]
-  - [martian @ MARS 4 : benchmarking frontier models on conducting independent research]
-  - [coder @ Sandia : reinforcement learning environments for missile guidance systems]
-  - [coder @ Accenture : probabilistic inference & GANs for generating synthetic datasets]
-  - [coder @ SPAR F25 : interpreting mechanistics]
-  - [coder @ CityStream : RAG for governments]
-  - [coder @ Oracle : tagging & observing mission-critical infrastructure]
-  - [coder @ Silicon Valley Clean Water : calculating a cost-benefit analysis on power generation hardware]
-  - [electro wizard @ Mission Cube : assembling solar power & batteries on the world record atmospheric sampling probe]
+  - [get things done guy @ Atoms : teaching cars to drive themselves                              ]
+  - [non-sales force @ Salesforce : simulating human behavior in agents                           ]
+  - [martian @ MARS 4 : benchmarking frontier models on conducting independent research           ]
+  - [machinecharmer @ Sandia : reinforcement learning environments for missile guidance systems   ]
+  - [machinecharmer @ Accenture : probabilistic inference & GANs for generating synthetic datasets]
+  - [coder @ SPAR F25 : interpreting mechanistics                                                 ]
+  - [coder @ CityStream : RAG for governments                                                     ]
+  - [coder @ Oracle : tagging & observing mission-critical infrastructure                         ]
+  - [coder @ Silicon Valley Clean Water : calculating a cost-benefit analysis of linear generators]
+  - [electro wizard @ Mission Cube : building the world record atmospheric bacteria sampling probe]
 hobbies:
     [spelunking, crochet, birdwatching, 🏎️, cinema, poker, 📸, TVRUHH, Katana Zero, SANABI, PvZGW2]
 interests:
