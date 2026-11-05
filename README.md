@@ -13,9 +13,9 @@ prev:
   - [coder @ Silicon Valley Clean Water : calculating a cost-benefit analysis of linear generators]
   - [electro wizard @ Mission Cube : building the world record atmospheric bacteria sampling probe]
 hobbies:
-    [spelunking, crochet, birdwatching, 🏎️, cinema, poker, 📸, TVRUHH, Katana Zero, SANABI, PvZGW2]
+    [spelunking, crochet, birdwatching, 🏎️, films, poker, 📸, TVRUHH, Katana Zero, SANABI, PvZGW2]
 interests:
-    [lithography, entomology, architecture, immunology, linguistics, culinary art]
+    [lithography, entomology, architecture, immunology, linguistics, culinary art                 ]
 ```
 
 My first project ever was an interactive, animated visual novel with over 200 scenes.
