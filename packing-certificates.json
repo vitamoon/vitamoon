@@ -1,6 +1,6 @@
 {
   "credit_name": "Kaelan Yim",
-  "snapshot_utc": "2026-11-09T08:40:36.930639+00:00",
+  "snapshot_utc": "2026-11-09T09:35:14.891583+00:00",
   "certificate_format": "n L header, followed by exactly n rows x y t; rational t=tan(theta/2). Unit edge length exactly1.",
   "new_certificates": 14,
   "certificates": [
@@ -61,7 +61,7 @@
       ],
       "registry_revision": "f30d6405dcf36f9b9e3e031f855cd055fb44332c",
       "verification_scope": "Five exact routes accepted; some share code/ancestry. Initial closed-envelope touching variant was accepted locally but rejected by a public checker requiring strict wall clearance; adding1e-30 translation padding and2e-30 to the side passed all five routes. No optimizer retry.",
-      "cohort_audit_status": "Independent exact-envelope and numerical-cohort review pending; separate from five accepted exact certificate checks",
+      "cohort_audit_status": "Independent exact-envelope and numerical-cohort review completed; unchanged relative geometry confirmed. Archival only, no credit recommendation.",
       "licensing": "Pinned source MIT publisher declaration; verbatim copyright and permission notice included in n130-source-LICENSE.txt; no independent ownership audit",
       "license_file": "n130-source-LICENSE.txt"
     },
@@ -115,16 +115,15 @@
     {
       "n": 303,
       "file": "n303.cert",
-      "sha256": "b8318f81e2199cc9e162f5072cd37c0528d129d496c67cd6188e86b4a430ab9b",
-      "side_exact": "1259726429694979000000000000001259726429694979/70368744177664000000000000000000000000000000",
-      "side_decimal": "17.9017892732954777557097258977771009317293501652557097258977591991424560546875",
+      "sha256": "14dbc28d7929d2008f2e76e74b078fafee2ec57b8d7603eb9a5ac306caf39b29",
+      "side_exact": "1159243312382833490764400031561352875121611202900949162484560193631809228369410184762453/64755723279645431239980480646475572327964543123998048064000000000000000000000000000000",
+      "side_decimal": "17.901789273153199285663398339169101416325678452911809445496271024013322889185489",
       "pairs_checked": 45753,
-      "credit": "Kaelan Yim — AI-assisted computational refinement; inherited construction and method credits retained below",
+      "credit": "Kaelan Yim — AI-assisted microscopic computational refinement, after Doğa Özden, Evan Daniel, Chris Deotte and Griffin Casson",
       "lineage_statements": [
-        "[Yim n303 resumed L40S search after phase13 control / L40S v6 / Evan Daniel issue914]",
-        "Computational refinement of Evan Daniel’s issue914 packing, after Chris Deotte’s multi-gadget fault-DP method; see https://github.com/jlevy/squares/issues/914. Search tooling includes griffcass/square-packing. This certificate does not beat the pending Doğa Özden issue930 submission."
+        "No-strain control refinement of Doğa Özden issue930, itself after Evan Daniel issue914 and Chris Deotte fault-line construction; unchanged Griffin Casson c37 SLP used for matched recovery. Not an independent construction."
       ],
-      "record_claim": "No current public/global record or optimality claim. Submission freshness must be checked.",
+      "record_claim": "Exact improvement over pinned issue930 coordinates; no global-best, optimality, maintainer acceptance or guaranteed Atlas credit claim",
       "checks": [
         {
           "checker": "exact_certificate.verify_certificate",
@@ -148,8 +147,32 @@
         }
       ],
       "registry_revision": "f30d6405dcf36f9b9e3e031f855cd055fb44332c",
-      "verification_scope": "Five local exact-check routes accepted; routes share some code/ancestry. Exact feasibility is separate from optimizer convergence and current-record status.",
-      "cohort_audit_status": "Independent cohort review completed"
+      "verification_scope": "Five local exact routes accepted all303 squares/all45753 pairs; routes share some ancestry/code. Feasibility is independent of optimizer completion and the disclosed preflight sequencing defect.",
+      "cohort_audit_status": "Independent v32 cohort/admission review pending; separate from five exact certificate passes",
+      "text_copy": "n303.cert.txt",
+      "source_issue": "https://github.com/jlevy/squares/issues/930",
+      "source_repository": "https://github.com/kenaznia-doga/s303-upper-bound",
+      "source_commit": "b43ca090fc2ff5e750fecc71d8514298fe164514",
+      "source_sha256": "9cbeb7a8198ef9f3316f9e4dd0a998b879133a2e31e12c82c3fbe9882e0f2f3e",
+      "source_exact_side": "447544731828911039747777636237071350718715813575203650644682965517518811603884689802495778772042992023292265444653372109230293195215370185029543202786115810159713/24999999999999931932159172221288855294099116562124920847557711161993959344477155085573888905125695641180191552412077693918175854406830032031612900000000000000000",
+      "exact_side_improvement_decimal": "3.2910456934182164069747701743215455523750257883238419809617495817253175132420894E-12",
+      "classification": "Microscopic no-strain control refinement; NOT aspect-strain utility, material gain or structural construction",
+      "protocol_exception": "Pre-science mixed-rotation Jacobian fixture retained zero pairs and tested only walls. Post-science all938 retained pairs/all910 columns passed; this does not cure the sequencing violation. Not a fully protocol-compliant pilot.",
+      "relative_geometry": {
+        "relative_centers_not_preserved_exactly": true,
+        "nonreference_relative_centers_changed": 302,
+        "max_relative_center_change_exact": "5198539085638920178498326083636071457021762161538222580554033914453271684789488649595305690942514777/1363446491520360233869547295014060390222311345383410189487771574107027532199645546000000000000000000000000000000",
+        "max_relative_center_change_float": 3.8127928877077544e-12,
+        "operation": "Rationalized no-strain control refinement; not common-translation/envelope-only"
+      },
+      "licensing": "Source certificates/data/text CC BY4.0; code MIT, per pinned publisher declaration. Attribution and change notice retained; not independent ownership audit.",
+      "license_file": "n303-source-LICENSE.md",
+      "submitted": false,
+      "registry_adopted": false,
+      "material_gain_threshold": "1/1000000",
+      "material_gain_threshold_met": false,
+      "prior_certificate_commit": "c10e0944b12b66bbc8ee1e121967ff289c2bace6",
+      "prior_certificate_sha256": "b8318f81e2199cc9e162f5072cd37c0528d129d496c67cd6188e86b4a430ab9b"
     },
     {
       "n": 553,

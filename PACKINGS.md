@@ -12,7 +12,7 @@ Sides below are **rounded upward to 12 decimal places** for display only. The ex
 |---:|---|---:|
 | 130 | [n130.cert](n130.cert) | 11.902430645983 |
 | 299 | [n299.cert](n299.cert) | 17.801004434255 |
-| 303 | [n303.cert](n303.cert) | 17.901789273296 |
+| 303 | [n303.cert](n303.cert) | 17.901789273154 |
 | 553 | [n553.cert](n553.cert) | 23.969145238668 |
 | 599 | [n599.cert](n599.cert) | 24.936479681246 |
 | 600 | [n600.cert](n600.cert) | 24.951090275321 |
@@ -29,7 +29,7 @@ Sides below are **rounded upward to 12 decimal places** for display only. The ex
 
 **n299 is a verified microscopic tightening:** the exact side is `17.80100443425411170800278978866085574955…`, smaller than the pending [Doğa Özden #929](https://github.com/jlevy/squares/issues/929) witness by approximately `1.1819655270744e-12`. It comes from returned-anchor continuation, not either broader kick. This is a refinement of his arrangement, not a new construction or material gain. Requested further-refinement credit: **Kaelan Yim after Doğa Özden, Evan Daniel and Chris Deotte**. Acceptance and Atlas credit remain the maintainers’ decision. A byte-identical [text copy](n299.cert.txt) is available for attachment hosts.
 
-**n303 is not a new-best submission:** the pending public submission [#930](https://github.com/jlevy/squares/issues/930) reports a smaller side than the certificate in this snapshot. The current visual Atlas covers n=1..324; the larger-count certificates are outside that displayed range. Check current records and pending issues before submitting any of these as improvements.
+**n303 now has a verified microscopic refinement:** exact side `17.9017892731531992856633983391691014…`, approximately `3.2910456934182e-12` below the pinned [Doğa Özden #930](https://github.com/jlevy/squares/issues/930) witness. It came from the **no-strain control**, not the aspect-strain proposal (which recovered worse). Relative centers change microscopically; this is not merely a common translation/reboxing, but neither a structural nor material improvement. Credit: **Kaelan Yim after Doğa Özden, Evan Daniel, Chris Deotte and Griffin Casson**. The source [license declaration](n303-source-LICENSE.md) and a byte-identical [text copy](n303.cert.txt) are included. **Protocol qualification:** the pre-science pair-Jacobian fixture accidentally tested only walls; the later full pair check passed but does not retroactively cure admission. Five exact geometry checks passed separately; independent cohort review remains pending. The original material milestone remains unmet. Atlas acceptance/credit are not guaranteed. The current visual Atlas covers n=1..324; higher-count files are outside that display.
 
 ## Reproduce exact feasibility checks
 
@@ -48,11 +48,11 @@ Replace `n303.cert` with any certificate to check. Checker SHA-256 values:
 - `verify_cert.py`: `3299ca0c0f02f7c221deeea69a9a85b5a90db6bc410b20727fdff211c92bed52`
 - `verify_cert2.py`: `55140a35d95d9eaa64a14c3b044641efbcda94ebfc3b12b7dec9fa52692e31d3`
 
-Run `sha256sum -c SHA256SUMS` from this repository to check file identity, including the pre-existing n260 certificate, byte-identical n130/n299 text copies, and the n130 upstream license notice. Certificates are copied byte-for-byte from the verified local releases; historical comments containing “private” describe their pre-publication status.
+Run `sha256sum -c SHA256SUMS` from this repository to check file identity, including the pre-existing n260 certificate, byte-identical n130/n299/n303 text copies, and the n130 upstream license notice. Certificates are copied byte-for-byte from the verified local releases; historical comments containing “private” describe their pre-publication status.
 
 ## Submission and attribution
 
-Requested improvement credit: **Kaelan Yim** (GitHub `vitamoon`). AI assistance: Hermes Agent was used for research, numerical search, implementation and verification orchestration. Full prior construction/method lineage must accompany a submission. In particular, n303 builds on Evan Daniel’s packing after Chris Deotte’s method; n604 builds on Couzo/alexchilton work. Other source credits are retained per certificate. No sole-inventor or priority claim is made.
+Requested improvement credit: **Kaelan Yim** (GitHub `vitamoon`). AI assistance: Hermes Agent was used for research, numerical search, implementation and verification orchestration. Full prior construction/method lineage must accompany a submission. In particular, n303 refines Doğa Özden after Evan Daniel and Chris Deotte, with Griffin Casson’s recovery solver; n604 builds on Couzo/alexchilton work. Other source credits are retained per certificate. No sole-inventor or priority claim is made.
 
 Publishing certificates here is not an Atlas registration. Use a full commit URL and the SHA-256 in `packing-certificates.json` when reporting a result. The repository owner submits registration requests; none were posted by this publication step.
 
