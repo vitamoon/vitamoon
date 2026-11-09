@@ -1,9 +1,70 @@
 {
   "credit_name": "Kaelan Yim",
-  "snapshot_utc": "2026-11-09T07:29:56.727798+00:00",
+  "snapshot_utc": "2026-11-09T08:40:36.930639+00:00",
   "certificate_format": "n L header, followed by exactly n rows x y t; rational t=tan(theta/2). Unit edge length exactly1.",
-  "new_certificates": 13,
+  "new_certificates": 14,
   "certificates": [
+    {
+      "n": 130,
+      "file": "n130.cert",
+      "text_copy": "n130.cert.txt",
+      "sha256": "3056cb4dd92927f671851b9866976a061fab3635daed5d3f676fffb570e1f565",
+      "side_exact": "12971572518503349393832850076636691474305902182478289654941561/1089825507438012248624046765161000000000000000000000000000000",
+      "side_decimal": "11.902430645982246204203037529443582414185848054084799798286852632919100179318129",
+      "pairs_checked": 8385,
+      "credit": "Kaelan Yim — exact enclosing-box operation only. Packing credit remains Mishapolk after Francisco Couzo and PR574 contributors; not a new arrangement.",
+      "lineage_statements": [
+        "Mishapolk re-solve of Couzo843, from PR574 Nate Chaoweeraprasit/Siddharth Gupta/PingYou Ltd. Not independent family from those ancestors. Unchanged Griffin Casson c37 SLP MIT."
+      ],
+      "source_issue": "https://github.com/jlevy/squares/issues/846",
+      "source_repository": "https://github.com/Mishapolk/square-packing-records",
+      "source_commit": "52aa2672c74c91931686d60a49bdf97ec798291c",
+      "source_sha256": "1e00cd74ccf3495b69d6d84f9c130432b63cebd447209d0dbeaf17077a669be7",
+      "source_exact_side": "5951215322991132879306459820277/500000000000000000000000000000",
+      "exact_side_improvement_decimal": "1.9554409882111110417585814151945915200201713147367080899820681871384030119667357E-14",
+      "operation": {
+        "translation_x": "-4969999999999999/500000000000000000000000000000",
+        "translation_y": "-9889999999999997/1000000000000000000000000000000",
+        "source_side": "5951215322991132879306459820277/500000000000000000000000000000",
+        "span_x": "2380486129196449163722583928111/200000000000000000000000000000",
+        "span_y": "12971572518503349393832850076634511823291026157981041561411239/1089825507438012248624046765161000000000000000000000000000000",
+        "closed_envelope_side": "12971572518503349393832850076634511823291026157981041561411239/1089825507438012248624046765161000000000000000000000000000000",
+        "strict_wall_padding": "1/1000000000000000000000000000000",
+        "new_side": "12971572518503349393832850076636691474305902182478289654941561/1089825507438012248624046765161000000000000000000000000000000",
+        "orientations_and_relative_centers_unchanged_exactly": true
+      },
+      "relative_centers_and_orientations_unchanged": true,
+      "classification": "Archival exact envelope-only certificate variant; no numerical search or new-packing gain",
+      "record_claim": "No registry adoption, new-packing, current-record or Atlas-credit claim. Same-12-place padding-only restatement policy may apply.",
+      "eligibility_policy_source": "https://github.com/jlevy/squares/issues/846#issuecomment-6543941452",
+      "checks": [
+        {
+          "checker": "exact_certificate.verify_certificate",
+          "accepted": true
+        },
+        {
+          "checker": "verify_cert.py",
+          "accepted": true
+        },
+        {
+          "checker": "verify_cert2.py",
+          "accepted": true
+        },
+        {
+          "checker": "registry-main-report.json",
+          "accepted": true
+        },
+        {
+          "checker": "registry-independent-report.json",
+          "accepted": true
+        }
+      ],
+      "registry_revision": "f30d6405dcf36f9b9e3e031f855cd055fb44332c",
+      "verification_scope": "Five exact routes accepted; some share code/ancestry. Initial closed-envelope touching variant was accepted locally but rejected by a public checker requiring strict wall clearance; adding1e-30 translation padding and2e-30 to the side passed all five routes. No optimizer retry.",
+      "cohort_audit_status": "Independent exact-envelope and numerical-cohort review pending; separate from five accepted exact certificate checks",
+      "licensing": "Pinned source MIT publisher declaration; verbatim copyright and permission notice included in n130-source-LICENSE.txt; no independent ownership audit",
+      "license_file": "n130-source-LICENSE.txt"
+    },
     {
       "n": 299,
       "file": "n299.cert",
@@ -47,8 +108,8 @@
         }
       ],
       "registry_revision": "f30d6405dcf36f9b9e3e031f855cd055fb44332c",
-      "verification_scope": "Five local exact routes accepted, sharing some code/ancestry; all299 squares and44551 pairs. Independent cohort review pending and separate from certificate feasibility.",
-      "cohort_audit_status": "Pending independent full-cohort review",
+      "verification_scope": "Five local exact routes accepted, sharing some code/ancestry; all299 squares and44551 pairs. Independent cohort review also completed; it did not rerun exact checkers, reproduce repair transforms or review auxiliary geometry.",
+      "cohort_audit_status": "Independent full-cohort numerical review completed;408raw+repairedlayouts and source/RNG/native/ranking verified. Exact certificate checks are separate.",
       "licensing": "Upstream issue929 states CC BY4.0 for witness/data/text; MIT code. Inherited lineage must be retained."
     },
     {

@@ -10,6 +10,7 @@ Sides below are **rounded upward to 12 decimal places** for display only. The ex
 
 | n | Certificate | Upper bound (rounded upward) |
 |---:|---|---:|
+| 130 | [n130.cert](n130.cert) | 11.902430645983 |
 | 299 | [n299.cert](n299.cert) | 17.801004434255 |
 | 303 | [n303.cert](n303.cert) | 17.901789273296 |
 | 553 | [n553.cert](n553.cert) | 23.969145238668 |
@@ -23,6 +24,8 @@ Sides below are **rounded upward to 12 decimal places** for display only. The ex
 | 648 | [n648.cert](n648.cert) | 25.908803576981 |
 | 699 | [n699.cert](n699.cert) | 26.907311118315 |
 | 700 | [n700.cert](n700.cert) | 26.908036102718 |
+
+**n130 is an archival envelope-only variant:** side `11.9024306459822462042030375294435824…` (upward to 16 places: `11.9024306459822463`), approximately `1.9554409882111e-14` below the source certificate. Every relative center and orientation is unchanged; only a common translation and the containing-box size change. This is **not a new packing or numerical search gain**. The [maintainer discussion](https://github.com/jlevy/squares/issues/846#issuecomment-6543941452) distinguishes padding-only re-certifications and raises their eligibility inside the Atlas range; **no Atlas credit is claimed or recommended from this file**. The source’s MIT [copyright/permission notice](n130-source-LICENSE.txt) and ancestry are retained. A byte-identical [text copy](n130.cert.txt) is included.
 
 **n299 is a verified microscopic tightening:** the exact side is `17.80100443425411170800278978866085574955…`, smaller than the pending [Doğa Özden #929](https://github.com/jlevy/squares/issues/929) witness by approximately `1.1819655270744e-12`. It comes from returned-anchor continuation, not either broader kick. This is a refinement of his arrangement, not a new construction or material gain. Requested further-refinement credit: **Kaelan Yim after Doğa Özden, Evan Daniel and Chris Deotte**. Acceptance and Atlas credit remain the maintainers’ decision. A byte-identical [text copy](n299.cert.txt) is available for attachment hosts.
 
@@ -45,7 +48,7 @@ Replace `n303.cert` with any certificate to check. Checker SHA-256 values:
 - `verify_cert.py`: `3299ca0c0f02f7c221deeea69a9a85b5a90db6bc410b20727fdff211c92bed52`
 - `verify_cert2.py`: `55140a35d95d9eaa64a14c3b044641efbcda94ebfc3b12b7dec9fa52692e31d3`
 
-Run `sha256sum -c SHA256SUMS` from this repository to check file identity, including the pre-existing n260 certificate and the byte-identical n299 text copy. Certificates are copied byte-for-byte from the verified local releases; historical comments containing “private” describe their pre-publication status.
+Run `sha256sum -c SHA256SUMS` from this repository to check file identity, including the pre-existing n260 certificate, byte-identical n130/n299 text copies, and the n130 upstream license notice. Certificates are copied byte-for-byte from the verified local releases; historical comments containing “private” describe their pre-publication status.
 
 ## Submission and attribution
 
