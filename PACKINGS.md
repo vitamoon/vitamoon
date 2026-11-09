@@ -10,6 +10,7 @@ Sides below are **rounded upward to 12 decimal places** for display only. The ex
 
 | n | Certificate | Upper bound (rounded upward) |
 |---:|---|---:|
+| 299 | [n299.cert](n299.cert) | 17.801004434255 |
 | 303 | [n303.cert](n303.cert) | 17.901789273296 |
 | 553 | [n553.cert](n553.cert) | 23.969145238668 |
 | 599 | [n599.cert](n599.cert) | 24.936479681246 |
@@ -22,6 +23,8 @@ Sides below are **rounded upward to 12 decimal places** for display only. The ex
 | 648 | [n648.cert](n648.cert) | 25.908803576981 |
 | 699 | [n699.cert](n699.cert) | 26.907311118315 |
 | 700 | [n700.cert](n700.cert) | 26.908036102718 |
+
+**n299 is a verified microscopic tightening:** the exact side is `17.80100443425411170800278978866085574955…`, smaller than the pending [Doğa Özden #929](https://github.com/jlevy/squares/issues/929) witness by approximately `1.1819655270744e-12`. It comes from returned-anchor continuation, not either broader kick. This is a refinement of his arrangement, not a new construction or material gain. Requested further-refinement credit: **Kaelan Yim after Doğa Özden, Evan Daniel and Chris Deotte**. Acceptance and Atlas credit remain the maintainers’ decision. A byte-identical [text copy](n299.cert.txt) is available for attachment hosts.
 
 **n303 is not a new-best submission:** the pending public submission [#930](https://github.com/jlevy/squares/issues/930) reports a smaller side than the certificate in this snapshot. The current visual Atlas covers n=1..324; the larger-count certificates are outside that displayed range. Check current records and pending issues before submitting any of these as improvements.
 
@@ -42,7 +45,7 @@ Replace `n303.cert` with any certificate to check. Checker SHA-256 values:
 - `verify_cert.py`: `3299ca0c0f02f7c221deeea69a9a85b5a90db6bc410b20727fdff211c92bed52`
 - `verify_cert2.py`: `55140a35d95d9eaa64a14c3b044641efbcda94ebfc3b12b7dec9fa52692e31d3`
 
-Run `sha256sum -c SHA256SUMS` from this repository to check file identity, including the pre-existing n260 certificate. Certificates are copied byte-for-byte from the verified local releases; historical comments containing “private” describe their pre-publication status.
+Run `sha256sum -c SHA256SUMS` from this repository to check file identity, including the pre-existing n260 certificate and the byte-identical n299 text copy. Certificates are copied byte-for-byte from the verified local releases; historical comments containing “private” describe their pre-publication status.
 
 ## Submission and attribution
 

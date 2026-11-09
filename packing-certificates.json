@@ -1,9 +1,56 @@
 {
   "credit_name": "Kaelan Yim",
-  "snapshot_utc": "2026-11-09T07:12:34.481647+00:00",
+  "snapshot_utc": "2026-11-09T07:29:56.727798+00:00",
   "certificate_format": "n L header, followed by exactly n rows x y t; rational t=tan(theta/2). Unit edge length exactly1.",
-  "new_certificates": 12,
+  "new_certificates": 13,
   "certificates": [
+    {
+      "n": 299,
+      "file": "n299.cert",
+      "text_copy": "n299.cert.txt",
+      "sha256": "7e4964375418fdab9a78d12b2756ffca8c1386985468be7b0be2fbd030b9fd75",
+      "side_exact": "49520681639553253091959720304954604907070758384704238109808721459262431205131612278389503816375037/2781903786522383536263046420444731316926020496322871983755429706465280000000000000000000000000000",
+      "side_decimal": "17.801004434254111708002789788660855749553743592332097443775120017194927003806730",
+      "pairs_checked": 44551,
+      "credit": "Kaelan Yim — AI-assisted computational refinement, after Doğa Özden, Evan Daniel and Chris Deotte",
+      "lineage_statements": [
+        "Doğa Özden after Evan Daniel after Chris Deotte; fault-line DP from Deotte public Kaggle s334; Daniel refill/exact-descent T248/T258; Özden T263 and pending929; Squares Project regularized atlas input. Public search uses Evan Daniel ALM+SLP bb4cc78e MIT. This cohort uses Griffcass SLP c37 unchanged MIT; results inherit source CC BY 4.0; AI assistance throughout; prospective credit Kaelan Yim after these contributors."
+      ],
+      "source_issue": "https://github.com/jlevy/squares/issues/929",
+      "source_repository": "https://github.com/kenaznia-doga/s299-upper-bound-17801004",
+      "source_commit": "a042eab017caeb07ca5f79afcdc5fbb89103cda2",
+      "source_sha256": "dfb0ccf71474a276a52ce768cc38e799d30ff6373a22b8ae318f58f278025d9d",
+      "source_exact_side": "7120401773702096342754592967281230757016830483803152851632588133933118281289482616136465872615357870735152930548574683963962811760970665605528283832840143529598339/399999999999998813176108643858924605486367171198872507435001091151754396322514904585379408344301256195880070191908496990382957782839857114267648100000000000000000",
+      "exact_side_improvement_decimal": "1.1819655270744065176893544462564038330024478114650744465456852790917702428794702E-12",
+      "classification": "Microscopic continuation refinement of the source arrangement; neither broader kick beats control; not a material or new-construction claim",
+      "record_claim": "Strict exact side improvement over the fresh pending coordinate-backed issue929 witness; no global optimality or universal-record claim. Historical lower unwitnessed side reports remain separate.",
+      "checks": [
+        {
+          "checker": "exact_certificate.verify_certificate",
+          "accepted": true
+        },
+        {
+          "checker": "verify_cert.py",
+          "accepted": true
+        },
+        {
+          "checker": "verify_cert2.py",
+          "accepted": true
+        },
+        {
+          "checker": "registry-main-report.json",
+          "accepted": true
+        },
+        {
+          "checker": "registry-independent-report.json",
+          "accepted": true
+        }
+      ],
+      "registry_revision": "f30d6405dcf36f9b9e3e031f855cd055fb44332c",
+      "verification_scope": "Five local exact routes accepted, sharing some code/ancestry; all299 squares and44551 pairs. Independent cohort review pending and separate from certificate feasibility.",
+      "cohort_audit_status": "Pending independent full-cohort review",
+      "licensing": "Upstream issue929 states CC BY4.0 for witness/data/text; MIT code. Inherited lineage must be retained."
+    },
     {
       "n": 303,
       "file": "n303.cert",
@@ -248,7 +295,7 @@
       ],
       "registry_revision": "f30d6405dcf36f9b9e3e031f855cd055fb44332c",
       "verification_scope": "Five local exact-check routes accepted; routes share some code/ancestry. Exact feasibility is separate from optimizer convergence and current-record status.",
-      "cohort_audit_status": "Pending independent full-cohort review"
+      "cohort_audit_status": "Independent cohort review completed; exact certificate feasibility separately checked"
     },
     {
       "n": 604,
@@ -292,7 +339,7 @@
       ],
       "registry_revision": "f30d6405dcf36f9b9e3e031f855cd055fb44332c",
       "verification_scope": "Five local exact-check routes accepted; routes share some code/ancestry. Exact feasibility is separate from optimizer convergence and current-record status.",
-      "cohort_audit_status": "Exact certificate passed; newest tiny-baseline cohort review pending closure"
+      "cohort_audit_status": "Independent cohort review completed; exact certificate feasibility separately checked"
     },
     {
       "n": 645,
