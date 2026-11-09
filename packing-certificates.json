@@ -1,6 +1,6 @@
 {
   "credit_name": "Kaelan Yim",
-  "snapshot_utc": "2026-11-09T09:35:14.891583+00:00",
+  "snapshot_utc": "2026-11-09T09:48:29.456844+00:00",
   "certificate_format": "n L header, followed by exactly n rows x y t; rational t=tan(theta/2). Unit edge length exactly1.",
   "new_certificates": 14,
   "certificates": [
@@ -148,7 +148,7 @@
       ],
       "registry_revision": "f30d6405dcf36f9b9e3e031f855cd055fb44332c",
       "verification_scope": "Five local exact routes accepted all303 squares/all45753 pairs; routes share some ancestry/code. Feasibility is independent of optimizer completion and the disclosed preflight sequencing defect.",
-      "cohort_audit_status": "Independent v32 cohort/admission review pending; separate from five exact certificate passes",
+      "cohort_audit_status": "Independent v32 cohort/admission review completed: 890 scientific paths/272 unique plus 7 auxiliary/3 unique; all raw/projected/repaired geometry, 275 exact repair-transform replays, 262 native inputs/primals, source axes/omission proofs, ranking/custody verified. Admission remains NONCOMPLIANT: pre-science pair-Jacobian coverage was zero. Five exact certificate checks are separate.",
       "text_copy": "n303.cert.txt",
       "source_issue": "https://github.com/jlevy/squares/issues/930",
       "source_repository": "https://github.com/kenaznia-doga/s303-upper-bound",
